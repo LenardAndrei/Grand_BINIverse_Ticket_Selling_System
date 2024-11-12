@@ -21,3 +21,12 @@ Additionally, the TicketSeller class leverages polymorphism in its sellTicket() 
 ### Abstraction
 Abstraction is mainly demonstrated by the Ticket class, which serves as an abstract base for all types of tickets. The Ticket class is marked as abstract, meaning it cannot be instantiated on its own. It’s a general blueprint that outlines the properties and behaviors that all ticket types should have. The ticket class contains an abstract method printTicket(). This method doesn’t have an implementation within Ticket itself, enforcing that any subclass must provide its own specific version of printTicket(). 
 
+## Details of the chosen SDG and its integration into the project
+
+The Grand BINIverse Ticket Selling System supports SDG 12: Responsible Consumption and Production by offering only e-tickets, which helps to minimize paper use and contributes to environmental sustainability. Additionally, 10% of each ticket payment goes to a charity selected by the customer, further supporting various Sustainable Development Goals:
+
+1.	Gawad Kalinga - Aligns with SDG 1: No Poverty through poverty reduction and sustainable community building. It also supports SDG 8: Decent Work and Economic Growth by providing livelihood programs.
+2.	Children’s Hour Philippines - Supports SDG 4: Quality Education by providing educational resources to underprivileged children. Its healthcare and protection programs also align with SDG 3: Good Health and Well-being and SDG 16: Peace, Justice, and Strong Institutions, which includes child protection.
+3.	Tahanang Walang Hagdanan - Aligns with SDG 8: Decent Work and Economic Growth and SDG 10: Reduced Inequalities by providing skills training and livelihood opportunities for persons with disabilities, promoting inclusion and economic growth.
+
+By integrating these SDG-aligned charities, the system not only supports responsible consumption but also empowers communities, promotes education, and reduces inequality.
