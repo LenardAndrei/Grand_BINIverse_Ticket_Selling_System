@@ -30,3 +30,14 @@ The Grand BINIverse Ticket Selling System supports SDG 12: Responsible Consumpti
 3.	Tahanang Walang Hagdanan - Aligns with SDG 8: Decent Work and Economic Growth and SDG 10: Reduced Inequalities by providing skills training and livelihood opportunities for persons with disabilities, promoting inclusion and economic growth.
 
 By integrating these SDG-aligned charities, the system not only supports responsible consumption but also empowers communities, promotes education, and reduces inequality.
+
+## Instructions for running the program
+
+When the program starts, it first displays the Ticket Selling Instructions, including the three concert dates, six ticket types with their prices, and important guidelines: only one email is allowed per transaction, with a maximum of four tickets. Additionally, a note about the SDGs supported by the system is shown. The user then presses Enter to proceed.
+
+Next, the program prompts the user to enter their Customer Name and Email Address. The email must be in the correct format; otherwise, the system will repeatedly prompt the user to re-enter it until it is valid. After providing the name and email, the user chooses their Payment Method: either Credit Card or PayPal. If Credit Card is selected, the user enters an Account Number; if PayPal is chosen, they enter a PayPal email or contact number.
+
+The user then selects the concert day they wish to attend (only one day per transaction), followed by a ticket type from the available options, along with its price. The user then selects a seat number. After selecting a ticket type and seat number, the user has the option to add more tickets or proceed to checkout to view the finalized order. This process repeats until the user chooses to finalize the order or reaches the four-ticket limit per transaction.
+
+Upon finalizing the ticket order, a summary is displayed, and the user presses Enter to proceed. The system then shows three charity options, allowing the user to select one for a 10% donation from their ticket payment. After choosing a charity, the program exits.	
+
